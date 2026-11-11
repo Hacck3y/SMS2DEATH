@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Signal bars with a fracture: "the radio is gone". Safe zone is the inner 66dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFE9EEF7"
+        android:pathData="M33,60h9v16h-9z" />
+    <path
+        android:fillColor="#FFE9EEF7"
+        android:pathData="M47,50h9v26h-9z" />
+    <path
+        android:fillColor="#FFE9EEF7"
+        android:pathData="M61,40h9v36h-9z" />
+    <path
+        android:fillColor="#FFE11D48"
+        android:pathData="M56,24 L40,58 h12 l-6,26 L72,48 h-12 l8,-24 z" />
+</vector>

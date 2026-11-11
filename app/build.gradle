@@ -3,17 +3,21 @@ plugins {
 }
 
 android {
-    namespace 'com.markb.wappushcrash'
+    namespace 'com.hacck3y.sms2death'
     compileSdk 35
     defaultConfig {
-        applicationId "com.markb.wappushcrash"
+        applicationId "com.hacck3y.sms2death"
         minSdk 30
         targetSdk 35
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
+        resConfigs "en"
     }
     buildTypes {
-        release { minifyEnabled false }
+        release {
+            minifyEnabled false
+            shrinkResources false
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
